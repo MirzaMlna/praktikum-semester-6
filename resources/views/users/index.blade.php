@@ -14,7 +14,7 @@
             <h1 class="text-xl font-bold text-gray-800 flex items-center gap-2">
                 Daftar Pengguna
             </h1>
-            <a href="{{ route('categories.create') }}"
+            <a href="{{ route('users.exportExcel') }}"
                 class="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-700">
                 <i class="bi bi-grid me-2"></i> Export Excel
             </a>
